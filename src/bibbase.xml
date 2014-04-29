@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+<name>Content - BibBase</name>
+<author>Alexey Vladykin</author>
+<creationDate>April 2014</creationDate>
+<license>GNU General Public License version 2 or later; see LICENSE</license>
+<version>1.0.0</version>
+<description>Include BibBase bibliographies into Joomla articles.</description>
+<files>
+<filename plugin="bibbase">bibbase.php</filename>
+<filename>index.html</filename>
+</files>
+</extension>
