@@ -10,7 +10,7 @@ class PlgContentBibbase extends JPlugin {
 
     private function replaceBibbaseTags($text) {
         return preg_replace_callback(
-                '(\{bibbase\}\s*(\S+)\s*\{/bibbase\})',
+                '(\{bibbase\}\s*(\S+?)\s*\{/bibbase\})',
                 array($this, 'replaceCallback'),
                 $text);
     }
